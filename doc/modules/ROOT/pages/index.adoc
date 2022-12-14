@@ -1,4 +1,4 @@
-= Introduction 
+= cadooz Business Order API v1.6.0
 
 :sectnums:
 :sectnumlevels: 4
@@ -9,7 +9,90 @@
 :source-highlighter: highlight.js
 :icons: font
 
-This Getting Started is a small guide to setup your own Docs Page using Antora and GitHub Pages. This will be pretty basic. If you are looking for more information feel free to visit the https://docs.antora.org/antora/1.1/[Antora Docs icon:external link[]].
+
+Linda Rapp <linda.rapp@cadooz.de>
+
+v1.6.0, December 31, 2022: cadooz Business Order API v1.6.0 Documentation
+
+
+
+== Getting Started
+
+
+
+====== Step 1
+
+=== API Documentation
+
+Start off by familiarizing yourself with our API documentation.
+
+
+
+Integrate the cadooz Business Order API v1.6.0 to automate your orders of vouchers and rewards at cadooz. The SOAP API allowes
+
+you to automate you orders wiht cadooz, choosing from the biggest variaty of gift cards on the german market,
+
+including all of the top brands. This documentation describes the endpoints and provides example requests
+
+as well as example responses, helping you to get started.
+
+
+
+====== Step 2
+
+=== API Access
+
+Once you created an API user, using our self-onboarding functionality within the
+
+https://incentivemall.cadooz.com/mall/index.do[Incentive Mall], you can try out the API
+
+calls and start integrating the orders at cadooz as part of your system's workflow.
+
+If you don't have a user for our Incetive Mall yet, you can
+
+https://incentivemall.cadooz.com/mall/register.do[register here].
+
+Once you created your API user you'll receive your login data and can start testing the API right away.
+
+
+
+====== Step 3
+
+=== Switch to production
+
+You can manage your API account data within the https://incentivemall.cadooz.com/mall/index.do[Incentive Mall]. That' where you can switch your API access to production,
+
+Once you finished the integration..
+
+
+
+== Environments and URLs
+
+=== Test API
+
+* Endpoint https://webservices.cadooztest.de/services/businessorder/1.5.2/BusinessOrderService/BusinessOrder
+
+* WSDL https://webservices.cadooztest.de/services/businessorder/1.5.2/BusinessOrderService/BusinessOrder?wsdl
+
+
+
+=== Production API
+
+TIP: If a new production account is creates, it will be a test account till you set it to production.
+
+
+
+* Endpoint: https://webservices.cadooz.com/services/businessorder/1.6.0/BusinessOrderService/BusinessOrder
+
+* WSDL: https://webservices.cadooz.com/services/businessorder/1.6.0/BusinessOrderService/BusinessOrder?wsdl
+
+
+
+== Authentication
+
+This cadooz businss Order API v1.6.0 uses SOAP v1.1.
+
+All requests must be well-formed, use HTTPS (encrypted) and need an HTTP header authentication.
 
 There are four parts to do
 
