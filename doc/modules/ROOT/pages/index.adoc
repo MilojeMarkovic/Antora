@@ -20,7 +20,7 @@ v1.6.0, December 31, 2022: cadooz Business Order API v1.6.0 Documentation
 
 
 
-====== Step 1
+=== Step 1
 
 === API Documentation
 
@@ -38,7 +38,7 @@ as well as example responses, helping you to get started.
 
 
 
-====== Step 2
+=== Step 2
 
 === API Access
 
@@ -56,7 +56,7 @@ Once you created your API user you'll receive your login data and can start test
 
 
 
-====== Step 3
+=== Step 3
 
 === Switch to production
 
