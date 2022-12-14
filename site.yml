@@ -13,3 +13,4 @@ ui:
   bundle:
     url: ./doc/modules
     snapshot: true
+  default_layout: article

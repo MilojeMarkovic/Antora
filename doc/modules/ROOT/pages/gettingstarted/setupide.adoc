@@ -25,4 +25,4 @@ Now you are able to select 'Open Preview to the Side' on the upper right side wh
 == NodeJS
 Get https://nodejs.org/en/[Node.js icon:external-link[]] and install it.
 
-=> next: xref:gettingstarted/repository.adoc[Create Repository]
+// => next: xref:gettingstarted/repository.adoc[Create Repository]
