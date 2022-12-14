@@ -11,6 +11,5 @@ content:
 
 ui:
   bundle:
-    url: ./doc/modules
+    url: https://github.com/fabianfnc/bocs/blob/master/doc/uibundle.zip?raw=true
     snapshot: true
-  default_layout: article
